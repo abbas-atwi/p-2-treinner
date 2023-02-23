@@ -215,20 +215,19 @@ legend {
   padding: 10px;
 }
 
-.button {
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  margin-top: 30px;
   padding: 0;
-  margin: 0;
 }
-.form-contact a {
-  display: inline-block;
+.form-contact .buttons a {
+  display: block;
   background-color: orange;
   color: #fff;
   margin: 0;
-  padding: 0;
+  padding: 10px 30px;
   border-radius: 5px;
   display: inline-block;
 }
@@ -289,6 +288,6 @@ legend {
   }
   .modal-area {
     width: 350px;
-    height: 350px;
+    height: 450px;
   }
 }
