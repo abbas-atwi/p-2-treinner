@@ -153,6 +153,7 @@ footer q {
 .modal-area {
   width: 600px;
   height: 600px;
+  border-radius: 10px;
   background-color: #333;
 }
 .modal-area ul {
@@ -181,12 +182,7 @@ footer q {
   border-bottom: 2px solid #000;
   /* background-color: rgb(253, 165, 3); */
   animation-name: animation-a;
-  animation-duration: 5s;
-}
-.modal-area .first {
-  animation-name: animation-a;
-  animation-duration: 5s;
-  transition: all 1s ease-out;
+  animation-duration: 1s;
 }
 .modal-area label {
   display: flex;
@@ -217,6 +213,24 @@ legend {
 .form-contact input {
   width: 100%;
   padding: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+.form-contact a {
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  display: inline-block;
 }
 .closeModal {
   display: flex;
