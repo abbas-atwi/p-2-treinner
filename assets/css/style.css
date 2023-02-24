@@ -253,6 +253,41 @@ legend {
   margin-top: -20px;
   border-radius: 15px;
 }
+
+.img-info {
+  overflow: hidden;
+}
+.slider-body {
+  display: flex;
+  width: 1500vw;
+  height: 100vh;
+  transition: all 2s ease-in-out;
+  /* height: 100vh; */
+  margin-left: 0vw;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slider h1 {
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.slider p {
+  font-size: 18px;
+  color: #fff;
+}
+
 @media (max-width: 450px) {
   .container {
     flex-direction: column;
@@ -293,5 +328,15 @@ legend {
   .modal-area {
     width: 350px;
     height: 450px;
+  }
+  .slider {
+    width: 200vw;
+    height: 50%;
+  }
+  .slider h1 {
+    font-size: 30px;
+  }
+  .slider p {
+    font-size: 12px;
   }
 }

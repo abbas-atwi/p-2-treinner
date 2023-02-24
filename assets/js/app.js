@@ -24,3 +24,17 @@ caracterX.addEventListener("click", () => {
     modalInput.value = "";
   }
 });
+
+let sliderbody = document.querySelector(".slider-body");
+
+setInterval(() => {
+  if (sliderbody.style.marginLeft == 0) {
+    sliderbody.style.marginLeft = "-50vw";
+  } else if (sliderbody.style.marginLeft == "-50vw") {
+    sliderbody.style.marginLeft = "-100vw";
+  } else if (sliderbody.style.marginLeft == "-100vw") {
+    sliderbody.style.marginLeft = "-150vw";
+  } else if (sliderbody.style.marginLeft == "-150vw") {
+    sliderbody.style.marginLeft = "0vw";
+  }
+}, 3000);
