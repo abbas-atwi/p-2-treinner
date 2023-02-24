@@ -329,8 +329,12 @@ legend {
     width: 350px;
     height: 450px;
   }
+  .slider-body {
+    width: 1000vw;
+    margin-left: -100vw;
+  }
   .slider {
-    width: 200vw;
+    width: 100vw;
     height: 50%;
   }
   .slider h1 {
