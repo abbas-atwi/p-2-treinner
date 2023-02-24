@@ -259,7 +259,7 @@ legend {
 }
 .slider-body {
   display: flex;
-  width: 1500vw;
+  width: 1000vw;
   height: 100vh;
   transition: all 2s ease-in-out;
   /* height: 100vh; */
@@ -329,12 +329,8 @@ legend {
     width: 350px;
     height: 450px;
   }
-  .slider-body {
-    width: 1000vw;
-    margin-left: -100vw;
-  }
+
   .slider {
-    width: 100vw;
     height: 50%;
   }
   .slider h1 {

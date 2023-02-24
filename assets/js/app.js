@@ -29,27 +29,25 @@ let sliderbody = document.querySelector(".slider-body");
 
 setInterval(() => {
   if (sliderbody.style.marginLeft == 0) {
-    sliderbody.style.marginLeft = "-50vw";
-  } else if (sliderbody.style.marginLeft == "-50vw") {
     sliderbody.style.marginLeft = "-100vw";
   } else if (sliderbody.style.marginLeft == "-100vw") {
-    sliderbody.style.marginLeft = "-150vw";
-  } else if (sliderbody.style.marginLeft == "-150vw") {
-    sliderbody.style.marginLeft = "0vw";
+    sliderbody.style.marginLeft = "-200vw";
+  } else if (sliderbody.style.marginLeft == "-200vw") {
+    sliderbody.style.marginLeft = 0;
   }
-}, 3000);
-let bod = document.querySelector("body").clientWidth;
+}, 4000);
+// let bod = document.querySelector("body").clientWidth;
 
-if (bod == 450) {
-  setInterval(() => {
-    if (sliderbody.style.marginLeft == 0) {
-      sliderbody.style.marginLeft = "-100vw";
-    } else if (sliderbody.style.marginLeft == "-100vw") {
-      sliderbody.style.marginLeft = "-200vw";
-    } else if (sliderbody.style.marginLeft == "-200vw") {
-      sliderbody.style.marginLeft = "-300vw";
-    } else if (sliderbody.style.marginLeft == "-300vw") {
-      sliderbody.style.marginLeft = "0vw";
-    }
-  }, 3000);
-}
+// if (bod == 450) {
+//   setInterval(() => {
+//     if (sliderbody.style.marginLeft == 0) {
+//       sliderbody.style.marginLeft = "-100vw";
+//     } else if (sliderbody.style.marginLeft == "-100vw") {
+//       sliderbody.style.marginLeft = "-200vw";
+//     } else if (sliderbody.style.marginLeft == "-200vw") {
+//       sliderbody.style.marginLeft = "-300vw";
+//     } else if (sliderbody.style.marginLeft == "-300vw") {
+//       sliderbody.style.marginLeft = "0vw";
+//     }
+//   }, 3000);
+// }
