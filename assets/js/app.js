@@ -35,19 +35,9 @@ setInterval(() => {
   } else if (sliderbody.style.marginLeft == "-200vw") {
     sliderbody.style.marginLeft = 0;
   }
-}, 4000);
+}, 3000);
 // let bod = document.querySelector("body").clientWidth;
-
+// let slidemobile = document.querySelector(".slider");
 // if (bod == 450) {
-//   setInterval(() => {
-//     if (sliderbody.style.marginLeft == 0) {
-//       sliderbody.style.marginLeft = "-100vw";
-//     } else if (sliderbody.style.marginLeft == "-100vw") {
-//       sliderbody.style.marginLeft = "-200vw";
-//     } else if (sliderbody.style.marginLeft == "-200vw") {
-//       sliderbody.style.marginLeft = "-300vw";
-//     } else if (sliderbody.style.marginLeft == "-300vw") {
-//       sliderbody.style.marginLeft = "0vw";
-//     }
-//   }, 3000);
+//   slidemobile.clientWidth = "50vw";
 // }
