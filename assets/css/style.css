@@ -153,6 +153,7 @@ footer q {
 .modal-area {
   width: 600px;
   height: 600px;
+  border-radius: 10px;
   background-color: #333;
 }
 .modal-area ul {
