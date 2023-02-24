@@ -291,9 +291,6 @@ legend {
   }
   .modal-area {
     width: 350px;
-    height: 350px;
-  }
-  .modal-area input {
-    /* width: 50; */
+    height: 450px;
   }
 }
